@@ -9,14 +9,19 @@ Reference:
 @inproceedings
 {
     yuan2022compositional,
-    title = {Compositional
-Training
-for End - to - End Deep AUC Maximization},
-author={Zhuoning Yuan and Zhishuai Guo and Nitesh Chawla and Tianbao Yang},
-booktitle={International Conference on Learning Representations},
-year={2022},
-url={https://
-    openreview.net / forum?id = gPvB4pdu_Z}
+    title = {Compositional Training for End - to - End Deep AUC Maximization},
+    author={Zhuoning Yuan and Zhishuai Guo and Nitesh Chawla and Tianbao Yang},
+    booktitle={International Conference on Learning Representations},
+    year={2022},
+    url={https://openreview.net / forum?id = gPvB4pdu_Z}
+}
+
+@article{
+    Xu2024FAUC-S,
+    title={FAUC-S:Deep AUC maximization by focusing on hard samples},
+    author={Shoukun Xu, Yanrui Ding, Yanhao Wang, Junru Luo},
+    journal={Neurocomputing},
+    year={2024},
 }
 '''
 
