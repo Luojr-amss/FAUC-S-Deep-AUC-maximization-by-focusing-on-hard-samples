@@ -6,11 +6,11 @@ Contact: luojunru@cczu.edu.cn
 # **Citation**
 """
 If you use this work,  please cite the following paper:
-@inproceedings{
+@article{
     Xu2024FAUC-S,
     title={FAUC-S:Deep AUC maximization by focusing on hard samples},
     author={Shoukun Xu, Yanrui Ding, Yanhao Wang, Junru Luo},
-    booktitle={},
+    journal={Neurocomputing},
     year={2024},
 }
 """
