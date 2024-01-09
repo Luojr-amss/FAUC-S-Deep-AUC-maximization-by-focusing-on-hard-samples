@@ -40,6 +40,8 @@ If you find this work useful in your work, please cite the following papers
     title={FAUC-S:Deep AUC maximization by focusing on hard samples},
     author={Shoukun Xu, Yanrui Ding, Yanhao Wang, Junru Luo},
     journal={Neurocomputing},
+    volume = {571},
+    pages = {127172},
     year={2024},
 }
  ```
