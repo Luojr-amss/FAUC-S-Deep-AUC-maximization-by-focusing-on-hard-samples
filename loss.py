@@ -74,7 +74,7 @@ class focal_AUC_loss(torch.nn.Module):
            p1 = (1-self.j*(y_pred-self.a)) ** self.gama
            p2 = (1-self.j*(self.b-y_pred)) ** self.gama
 
-           
+           ##ours
            p11 = p1*(1 == y_true).float()
            p22 = p2*(0 == y_true).float()
            pp = torch.mean(p11+p22)
