@@ -62,19 +62,19 @@ class focal_AUC_loss(torch.nn.Module):
               self.p = (y_true==1).float().sum()/y_true.shape[0]
            y_pred = torch.sigmoid(y_pred)
 
-           # ##指数函数
+           # ##exponential function
            # p1 = torch.exp(-self.gama*(0.5*(y_pred-self.a)))
            # p2 = torch.exp(-self.gama*(0.5*(self.b-y_pred)))
 
-           ##对数函数
+           ##logarithmic function
            # p1 = torch.log2(1+torch.exp(-self.gama*(0.5*(y_pred-self.a))))
            # p2 = torch.log2(1+torch.exp(-self.gama*(0.5*(self.b-y_pred))))
 
-           ##幂函数
+           ##power function
            p1 = (1-self.j*(y_pred-self.a)) ** self.gama
            p2 = (1-self.j*(self.b-y_pred)) ** self.gama
 
-           ##整体
+           
            p11 = p1*(1 == y_true).float()
            p22 = p2*(0 == y_true).float()
            pp = torch.mean(p11+p22)
