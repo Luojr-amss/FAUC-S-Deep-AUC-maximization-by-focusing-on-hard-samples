@@ -5,11 +5,11 @@ FAUC-S: Deep AUC maximization by focusing on hard samples
 
 Required Package Version:
 
-numpy 1.22.4
-
 python 3.8.0
 
 pytorch 1.7.1
+
+numpy 1.22.4
 
 tensorflow 2.8.0
 
